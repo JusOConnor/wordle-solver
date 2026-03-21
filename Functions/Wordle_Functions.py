@@ -153,6 +153,8 @@ def fPassVariables(b, y, g):
     # Removes letter indexes
     y = [l for l in y if l.isalpha()]
     g = [l for l in g if l.isalpha()]
+    if not g:
+        return b
     # Combines Yellow and Green strings into SET and uses RE.SUB to loop through the LIST SET and substitutes it with a '' in the b variable
     b = re.sub(f"[{''.join(set(y + g))}]", '', b)
     return str(b)
