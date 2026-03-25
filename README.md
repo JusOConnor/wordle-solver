@@ -11,16 +11,21 @@ This originally started as project to learn how to work with data in Python.  Th
 3. **Get random word from list of remaining possibilities.** \
     This finds the most common letter in the available words and then randomly selects a word with 5 unique letters.  This is meant to maximize each guess. 
 
-***The loop:***
-4. **Enter your guess.**
- This is the section where you plug in the results of the guess.  Once the variables have been populated ren the cell. \
-  Black = 'like' | Enter the letters that appear black.  Make sure the letters do not also appear Yellow or Green as this will be removing them from the list. \
-  Yellow = 't1h2i3s4 | Enter the letters and position for each one.  You do not need to enter these in a specific order beside (letter_number). | 's4i3h2t1' will have the same results. \
-  Green = 'w1a2y3 | Enter the letters and position for each one.  You do not need to enter these in a specific order beside (letter_number). | 'y3a2w1' will have the same results. 
- *Note:* \
-  You do not need to clear each variable between guesses. \
-  If you run out of words before the puzzle is solved, it's possible you may have entered the wrong letters.  Double check the Black letters don't appear Yellow or Red anywhere else. \
-At this point make another guess or utilize the 'Get random word' function.
+***The loop:*** 
+
+4. **Enter your guess.** \
+    This is the section where you plug in the results of the guess.  Once the variables have been populated ren the cell. 
+
+        Black = 'like' | Enter the letters that appear black.  Make sure the letters do not also appear Yellow or Green as this will be removing them from the list. 
+
+        Yellow = 't1h2i3s4 | Enter the letters and position for each one.  You do not need to enter these in a specific order beside (letter_number). | 's4i3h2t1' will have the same results. 
+
+        Green = 'w1a2y3 | Enter the letters and position for each one.  You do not need to enter these in a specific order beside (letter_number). | 'y3a2w1' will have the same results. 
+
+    *Note:* \
+        You do not need to clear each variable between guesses. \
+        If you run out of words before the puzzle is solved, it's possible you may have entered the wrong letters.  Double check the Black letters don't appear Yellow or Red anywhere else. \
+    At this point make another guess or utilize the 'Get random word' function.
 
 5. **print(word)** \
     This section is intended for you to see the contents of the list.  It's helpful for validating the remaining words in cases where the Random Word function keeps returning the same word/s or if you accidently plugged the wrong information into the variable. 
